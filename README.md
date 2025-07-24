@@ -40,7 +40,7 @@ banking-churn-predictor-app/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/banking-churn-predictor-app.git
+git clone https://github.com/manan35122/Banking-Churn-Predictor-App
 cd banking-churn-predictor-app
 ```
 
@@ -64,21 +64,14 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## 🌐 Deploy on Streamlit Cloud
-
-1. Push this project to a public GitHub repository
-2. Visit [https://streamlit.io/cloud](https://manan35122-banking-churn-predictor-app-app-1bvq9u.streamlit.app/)
-3. Connect your GitHub repo and select this project
-4. Make sure `model.joblib` and `requirements.txt` are included
-5. Click **Deploy**
-
 ## 📌 Note
 
 - The model was trained using scaled features, so input data is scaled before prediction.
 - One-hot encoding is used for `Geography` and `Gender`.
+- Visit [App Link](https://manan35122-banking-churn-predictor-app-app-1bvq9u.streamlit.app/)
 
 ## ✍️ Author
 
 **Manan**  
-📫 [[Add your LinkedIn/GitHub link here](https://www.linkedin.com/in/abdulmanan-arshad)]  
+📫 [[LinkedIn](https://www.linkedin.com/in/abdulmanan-arshad)]  
 💬 Built as part of a machine learning deployment project using Streamlit.
