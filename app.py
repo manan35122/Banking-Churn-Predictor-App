@@ -4,7 +4,7 @@ import pandas as pd
 import joblib as jb
 
 st.title("🏦 Bank Customer Churn Prediction")
-model = jb.load("model.joblib")
+model = jb.load("Model.joblib")
 scaler = jb.load('scaler.joblib')
 
 st.markdown("""
